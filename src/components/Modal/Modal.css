@@ -1,0 +1,27 @@
+.fade-in {
+    animation: scale-in 0.5s forwards ;
+}
+
+.fade-out {
+    animation: scale-out 0.5s forwards;
+}
+
+@keyframes scale-in {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+      transform: scale(100%);
+    }
+  }
+  
+  @keyframes scale-out {
+    0% {
+      transform: scale(100%);
+    }
+  
+    100% {
+      transform: scale(0%);
+    }
+  }
